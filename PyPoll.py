@@ -37,7 +37,7 @@ winner = ''
 winner_size = 0
 
 candidates = ''
-#find wiener
+#find winner
 for candidate in results:
     votes = results[candidate]
     if votes > winner_size:
