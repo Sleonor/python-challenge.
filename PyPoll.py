@@ -34,7 +34,7 @@ for path in election_csv_paths:
         else:
             results[candidate] += 1
 winner = ''
-wiener_size = 0
+winner_size = 0
 
 candidates = ''
 #find wiener
@@ -53,7 +53,7 @@ Total Votes: %i
 -------------------------
 Winner: %s
 -------------------------
-'''%(count,candidates,wiener)
+'''%(count,candidates,winner)
 
 with open('output.txt', 'w') as outfile:
     outfile.write(output)
